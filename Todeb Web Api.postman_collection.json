@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "00598e5f-dcc9-469e-b444-80758d00ea28",
+		"name": "Todeb Web Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21529635"
+	},
+	"item": [
+		{
+			"name": "Todeb Web Api Get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/WeatherForecast",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"WeatherForecast"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Todeb Web Api Get",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/WeatherForecast",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"WeatherForecast"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 21 Jun 2022 13:42:02 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"date\": \"2022-06-22T16:42:03.1521354+03:00\",\n        \"temperatureC\": -11,\n        \"temperatureF\": 13,\n        \"summary\": \"Chilly\"\n    },\n    {\n        \"date\": \"2022-06-23T16:42:03.1521415+03:00\",\n        \"temperatureC\": 34,\n        \"temperatureF\": 93,\n        \"summary\": \"Scorching\"\n    },\n    {\n        \"date\": \"2022-06-24T16:42:03.152142+03:00\",\n        \"temperatureC\": 41,\n        \"temperatureF\": 105,\n        \"summary\": \"Scorching\"\n    },\n    {\n        \"date\": \"2022-06-25T16:42:03.1521424+03:00\",\n        \"temperatureC\": 45,\n        \"temperatureF\": 112,\n        \"summary\": \"Bracing\"\n    },\n    {\n        \"date\": \"2022-06-26T16:42:03.1521427+03:00\",\n        \"temperatureC\": -15,\n        \"temperatureF\": 6,\n        \"summary\": \"Freezing\"\n    }\n]"
+				}
+			]
+		}
+	]
+}
