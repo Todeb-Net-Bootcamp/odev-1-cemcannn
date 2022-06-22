@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "9310ad19-6bd9-4375-a901-f694b07a8443",
+		"name": "Penguin Random House Book Store",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21529635"
+	},
+	"item": [
+		{
+			"name": "Author Get By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://reststop.randomhouse.com/resources/authors/785",
+					"protocol": "https",
+					"host": [
+						"reststop",
+						"randomhouse",
+						"com"
+					],
+					"path": [
+						"resources",
+						"authors",
+						"785"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Work Get By Query String",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://reststop.randomhouse.com/resources/works?search=down cemetery road",
+					"protocol": "https",
+					"host": [
+						"reststop",
+						"randomhouse",
+						"com"
+					],
+					"path": [
+						"resources",
+						"works"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "down cemetery road"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

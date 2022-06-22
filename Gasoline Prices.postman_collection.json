@@ -1,0 +1,147 @@
+{
+	"info": {
+		"_postman_id": "17b396af-9409-4340-9110-180067af2799",
+		"name": "Gasoline Prices",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21529635"
+	},
+	"item": [
+		{
+			"name": "Gasoline Prices Ankara Etimesgut Get",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "apikey apikey 00BU0qzMHVeC5yXQjlkwO2:5Vn56wNH2Do4UkVFuITTeH",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.collectapi.com/gasPrice/turkeyGasoline?district=etimesgut&city=ankara",
+					"protocol": "https",
+					"host": [
+						"api",
+						"collectapi",
+						"com"
+					],
+					"path": [
+						"gasPrice",
+						"turkeyGasoline"
+					],
+					"query": [
+						{
+							"key": "district",
+							"value": "etimesgut"
+						},
+						{
+							"key": "city",
+							"value": "ankara"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lpg Prices Ankara Get",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "apikey 00BU0qzMHVeC5yXQjlkwO2:5Vn56wNH2Do4UkVFuITTeH",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.collectapi.com/gasPrice/turkeyLpg?city=ankara",
+					"protocol": "https",
+					"host": [
+						"api",
+						"collectapi",
+						"com"
+					],
+					"path": [
+						"gasPrice",
+						"turkeyLpg"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "ankara"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Diesel Prices Izmir Get",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "apikey 00BU0qzMHVeC5yXQjlkwO2:5Vn56wNH2Do4UkVFuITTeH",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.collectapi.com/gasPrice/turkeyDiesel?district=karsiyaka&city=izmir",
+					"protocol": "https",
+					"host": [
+						"api",
+						"collectapi",
+						"com"
+					],
+					"path": [
+						"gasPrice",
+						"turkeyDiesel"
+					],
+					"query": [
+						{
+							"key": "district",
+							"value": "karsiyaka"
+						},
+						{
+							"key": "city",
+							"value": "izmir"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
